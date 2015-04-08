@@ -1,5 +1,3 @@
----
----
 The Internet Vote Widget
 ------------------------
 #### Help stop the Trans-Pacific Partnership (TPP) with your web site!
