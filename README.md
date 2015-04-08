@@ -30,6 +30,6 @@ Modern browsers, and the two latest versions of Internet Explorer (10 and 11).
 
 
 [1]: https://www.battleforthenet.com/countdown
-[2]: https://fightforthefuture.github.io/internet-vote-widget/modal.html
+[2]: https://fightforthefuture.github.io/internet-vote-widget/demos/modal.html
 [3]: https://github.com/fightforthefuture/internet-vote-widget/issues
 [4]: mailto:jeff@fightforthefuture.org
