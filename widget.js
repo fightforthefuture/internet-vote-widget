@@ -236,12 +236,34 @@ var ready = function() {
 	if (typeof _iv_animations[_iv_options.animation] == "undefined")
 		return _iv_util.log('Animation undefined: '+_iv_options.animation);
 
-	var animation = _iv_animations[_iv_options.animation];
+	var images = new Array()
+	var preloaded = 0;
 
-	setTimeout(function() {
-		animation.init(_iv_options).start();
-	}, _iv_options.delay);
+	function preload() {
+		for (i = 0; i < preload.arguments.length; i++) {
+			images[i] = new Image()
+			images[i].src = _iv_options.iframe_base_path + '/images/' + preload.arguments[i]
+			images[i].onload = function() {
+				preloaded++;
+				if (preloaded == images.length)
+				{
+					setTimeout(function() {
+						var animation = _iv_animations[_iv_options.animation];
+						animation.init(_iv_options).start();
+					}, _iv_options.delay);
+				}
+			}
+		}
+	}
+
+	// Preload images before showing the animation
+	preload(
+		'idl.png',
+		'modal_header.png',
+		'wifi.png'
+	);
 }
+
 
 // Wait for DOM content to load.
 var curState = document.readyState;
