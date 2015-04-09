@@ -6,7 +6,7 @@ The Internet Vote Widget
 agreement that would censor the Internet and destroy the American working class.
 The goal of this project is to allow anyone with a web site to run their own
 campaign to stop TPP. Simply embed a couple of lines of Javascript and you're
-good to go!
+good to go! These widgets will only show up once for each user.
 
 To stay up-to-date on developments, please subscribe to our
 [**mailing list**][1]. If you have any problems or questions regarding
