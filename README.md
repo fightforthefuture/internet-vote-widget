@@ -13,8 +13,7 @@ To stay up-to-date on developments, please subscribe to our
 the widget, please [submit an issue][3] or [email Jeff Lyon][4].
 
 
-Installation Instructions (Modal)
----------------------------------
+### Modal Instructions
 
 To install the modal, paste this code at the bottom of your page, right before
 the closing /BODY tag: [**(See demo)**][2]
@@ -24,8 +23,7 @@ the closing /BODY tag: [**(See demo)**][2]
 ![Modal](https://fightforthefuture.github.io/internet-vote-widget/demos/modal.png)
 
 
-Installation Instructions (Banner)
----------------------------------
+### Banner Instructions
 
 To install the banner, paste this code at the bottom of your page, right before
 the closing /BODY tag: [**(See demo)**][5]
@@ -35,8 +33,7 @@ the closing /BODY tag: [**(See demo)**][5]
 ```
 ![Banner](https://fightforthefuture.github.io/internet-vote-widget/demos/banner.png)
 
-Installation Instructions (Banner — Edgy Version!)
----------------------------------
+### Banner (Edgy version!) Instructions
 
 To install the banner (edgy version), paste this code at the bottom of your page, right before
 the closing /BODY tag: [**(See demo)**][6]
