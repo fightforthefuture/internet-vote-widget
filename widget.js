@@ -260,7 +260,7 @@ var ready = function() {
 	preload(
 		'idl.png',
 		'modal_header.png',
-		'wifi.png'
+		'capitol.png'
 	);
 }
 
