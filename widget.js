@@ -105,6 +105,40 @@ var _iv_animations = {
 		stop: function() {
 			_iv_util.destroyIframe();
 		}
+	},
+
+	// BANNER ANIMATION
+	banner: {
+
+		// Default options: Override these with _iv_options object (see above)
+		options: {
+			modalAnimation: 'banner',
+			variant: 'default'
+		},
+
+		// init copies the _iv_options properties over the default options
+		init: function(options) {
+			for (var k in options) this.options[k] = options[k];
+			return this;
+		},
+
+		// what to do when the animation starts
+		start: function() {
+			var css = '#_iv_iframe { position: fixed; left: 0px; bottom: 0px; \
+				width: 100%; height: 133px; z-index: 100001; display: none; } \
+				@media screen and (max-width: 850px) { #_iv_iframe { \
+				display: none !important; } } /* JL HACK ~ */'
+
+			_iv_util.injectCSS('_iv_iframe_css', css);
+
+			var iframe = _iv_util.createIframe(this.options.modalAnimation);
+			_iv_util.bindIframeCommunicator(iframe, this);
+		},
+
+		// what to do when the animation stops
+		stop: function() {
+			_iv_util.destroyIframe();
+		}
 	}
 }
 

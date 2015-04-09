@@ -13,15 +13,38 @@ To stay up-to-date on developments, please subscribe to our
 the widget, please [submit an issue][3] or [email Jeff Lyon][4].
 
 
-Installation Instructions
--------------------------
+Installation Instructions (Modal)
+---------------------------------
 
-To install the widget, paste this code at the bottom of your page, right before
+To install the modal, paste this code at the bottom of your page, right before
 the closing /BODY tag: [**(See demo)**][2]
 ```html
 <script src="https://fightforthefuture.github.io/internet-vote-widget/widget.min.js"></script>
 ```
-![Bottom Bar](https://fightforthefuture.github.io/internet-vote-widget/demos/modal.png)
+![Modal](https://fightforthefuture.github.io/internet-vote-widget/demos/modal.png)
+
+
+Installation Instructions (Banner)
+---------------------------------
+
+To install the banner, paste this code at the bottom of your page, right before
+the closing /BODY tag: [**(See demo)**][5]
+```html
+<script type="text/javascript">var _iv_options = { animation: 'banner' };</script>
+<script src="https://fightforthefuture.github.io/internet-vote-widget/widget.min.js"></script>
+```
+![Banner](https://fightforthefuture.github.io/internet-vote-widget/demos/banner.png)
+
+Installation Instructions (Banner — Edgy Version!)
+---------------------------------
+
+To install the banner (edgy version), paste this code at the bottom of your page, right before
+the closing /BODY tag: [**(See demo)**][6]
+```html
+<script type="text/javascript">var _iv_options = { animation: 'banner', variant: 'yes-no' };</script>
+<script src="https://fightforthefuture.github.io/internet-vote-widget/widget.min.js"></script>
+```
+![Banner](https://fightforthefuture.github.io/internet-vote-widget/demos/banner.yes-no.png)
 
 
 Which browsers are supported
@@ -33,3 +56,5 @@ Modern browsers, and the two latest versions of Internet Explorer (10 and 11).
 [2]: https://fightforthefuture.github.io/internet-vote-widget/demos/modal.html
 [3]: https://github.com/fightforthefuture/internet-vote-widget/issues
 [4]: mailto:jeff@fightforthefuture.org
+[5]: https://fightforthefuture.github.io/internet-vote-widget/demos/banner.html
+[6]: https://fightforthefuture.github.io/internet-vote-widget/demos/banner.yes-no.html
