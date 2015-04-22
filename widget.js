@@ -222,7 +222,7 @@ var _iv_util = {
 		var d = new Date();
 		d.setTime(d.getTime()+(exdays*24*60*60*1000));
 		var expires = "expires="+d.toGMTString();
-		document.cookie = name + "=" + val + "; " + expires;
+		document.cookie = name + "=" + val + "; " + expires + '; path=/';
 	},
 
 	// Get the cookie. Used to only show the widget once.
